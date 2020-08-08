@@ -1,0 +1,403 @@
+/*Landing Page, Side Navbar */
+html {
+  background-color: white;
+}
+body {
+  font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav {
+  z-index: 1000;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#hamburger {
+  color:	#ffd701;
+  position: absolute;
+  top:15px;
+  left: 20px;
+}
+.opaqueBackground {
+  background-color:rgba(0,0,0,0.5);
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color:	#ffd701;
+  display: block;
+  transition: 0.3s;
+  }
+  .sidenav a:hover {
+  color:black;
+}
+.border {  
+  border-bottom: 1px solid black;
+  width: 170px;
+  margin-left: 35px;}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 15px;
+  margin-left: 50px;
+}
+.btnOne{background-color:#ffd701; color: black; margin-top:15px; }
+.btnTwo{background-color:black; color:#ffd701; margin-right: 25px; margin-top:15px;}
+.btnOne:hover{
+  background-color:#ffd701; color: black; margin-top:15px;
+}
+.btnTwo:hover{
+  background-color:black; color:#ffd701; margin-right: 25px; margin-top:15px;
+}
+.mainPageNav {
+  height: 60px;
+  background-color:rgb(60, 60, 146);
+}
+#backdrop {
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background:rgba(0,0,0,0.6);
+}
+.rowOne {
+  height: 40vh;
+  margin-top: 50px;
+  padding: 20px;
+  background-color:rgb(60, 60, 146);
+  color: white;
+}
+.rowTwo {
+  background-color:rgb(60, 60, 146);
+  border-radius:0% 100% 100% 0% / 30% 0% 100% 70%; 
+}
+.rowSeven {
+  background-color:rgb(60, 60, 146);
+  border-radius:  100% 0% 0% 33% / 100% 100% 0% 0%;
+}
+.footer {
+  background-color:rgb(60, 60, 146);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutContact a {
+  margin-left: 35px;
+  color: white;
+}
+.logo a img {
+  margin-left:130px;
+}
+.fab{
+  color:#ffd701;
+  margin-left:50px;
+  font-size: 15px;
+}
+.rowOneOne {
+  height: 30vh;
+  background-color: rgb(60, 60, 146);
+  color: white;
+  font-size: 25px;
+}
+/*Single Page*/
+#singlePageImg{
+  background-image: url("imgs/architectural-design-architecture-ceiling-380768.jpg");
+  height:85vh;
+  width:100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 67%, 71% 78%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 67%, 71% 78%, 0% 100%);
+  z-index:-1 ;
+}
+.thumbnail {
+  -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition:  0.2s ease-in-out;
+}
+
+.thumbnail:hover{
+  box-shadow:0 10px 25px 0px rgba(0,0,0,0.125);
+  border-radius: 15px;
+  -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*Registration Form*/
+.form {
+  background: black;
+  background-color: rgba(0,0,0,0.8);
+  color:	#d8be2d;
+ 
+}
+.formImg {
+  /*background-image: url("imgs/logo.png");*/
+  background-repeat: no-repeat;
+  background-size:250px ;
+  background-position: 15% ;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+@keyframes example {
+  0%   {background-color:rgb(18, 19, 24); left:0px; top:0px;}
+  25%  {background-color:rgb(46, 45, 49); left:200px; top:0px;}
+  50%  {background-color:rgb(35, 37, 37); left:200px; top:200px;}
+  75%  {background-color:rgb(73, 75, 71); left:0px; top:200px;}
+  100% {background-color:rgb(63, 63, 62); left:0px; top:0px;}
+}
+.imgregform img {
+  width: 100%;
+  position: relative;
+top:250px;
+right: 100px;
+}
+#logIn {
+padding:  200px; 
+height: 100%;
+}
+.loginBorder {
+  border-bottom: 1px solid 	#d8be2d;
+  border-right: 1px solid 	#d8be2d;
+  padding: 25px;
+  box-shadow: 2px 	#d8be2d;
+}
+.loginBorder:hover {
+  background-color:	#d8be2d;
+  color: black;
+  box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+}
+.logInbtn:hover{
+  background-color:rgba(0,0,0,0.8) ;
+  color: 	#d8be2d;
+
+}
+#name, #email, #number,#message-text, button{
+background-color:whitesmoke  ;
+border-radius: 10px;
+}
+.registerBtn {
+  background-color:	#d8be2d;
+  color: black;
+  border-radius: 10px;
+}
+.registerBtn:hover{
+  -webkit-box-shadow: 60px 15px 17px -37px rgba(109, 103, 80, 0.75);
+-moz-box-shadow: 60px 15px 17px -37px rgba(85, 80, 61, 0.75);
+box-shadow: 60px 15px 17px -37px rgba(41, 40, 36, 0.75);
+}
+#logIn{
+  height: 100vh;
+}
+/*About Us page*/
+.aboutUsNav {
+  height: 70px;
+  background-color:rgba(0,0,0,0.150);
+}
+.heroImg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgs/annie-spratt-608001-unsplash.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;  
+}
+.footerAboutUs {
+  background-color:rgba(0, 0, 0, 0.7);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  
+}
+.footerAboutUs a {
+  color: #d8be2d;
+
+}
+.heroText {
+  margin-top:250px;
+  color: white;
+  padding: 5px;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px){
+  body {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+#navLogo{
+  position: absolute;
+  left: 25%;
+}
+#logIn {
+  padding: 50px;}
+#cardsImg {
+  position: relative;
+  top:500px!important;
+} 
+.imgregform img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top:5px;
+  right: 0px;
+}
+ .logo {
+   position: relative;
+   right:160px !important;
+ }
+ .brand {
+  position: absolute;
+  left: 25%;
+ }
+ .footer {
+  padding: 15px;
+ }  
+ #navRgba {
+   height:10vh ;
+ }
+
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*mobile */    
+@media only screen and (max-width: 425px) {
+  .navbar-right{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    padding: 50px;
+  } 
+  .rowOne{
+    height: 55vh;
+  padding:50px;}
+  .rowOneOne {
+    height: 55vh;
+  }
+  .footer {
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+  }
+  .logo{
+    left:0%;
+    left: -70px !important;
+  
+  }
+
+  .brand{
+    position: relative;
+    left: 40%;
+  }
+  #navLogo{
+    position: absolute;
+    left: 35%;
+  }
+  .logo a img {
+    margin-left: 105px;
+    margin-top: 65px;
+}
+
+}    
+@media only screen and (max-width: 375px) {
+  .navbar-right{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    padding: 40px;
+  } 
+  .rowOne{
+    height: 55vh;
+  padding:40px;}
+  .rowOneOne {
+    height: 55vh;
+  }
+  .footer {
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .singlePage {
+padding: 15px;
+margin-top:45px;
+  }
+  
+    .logo a img {
+      margin-left: 105px;
+      margin-top: 75px;
+  }
+  #navLogo{
+    position: absolute;
+    left: 35%;
+  }
+  .footer {
+    padding: 10px;
+  }
+  #singlePage  {
+    position: relative;
+    width: 100%;
+ }
+  
+}
+@media only screen and (max-width: 320px) {
+  .navbar-right{
+    margin-top: 20px;
+    padding: 15px;
+    width: 250px;
+  } 
+  .rowOne{
+    height: 55vh;
+  padding:20px;}
+  .rowOneOne {
+    height: 45vh;
+  }
+  .footer {
+    height:35vh;
+    display: flex;
+    flex-direction: column;}
+  
+    .logo a img {
+      margin-left: 105px;
+      margin-top: 65px;
+  }
+  #navLogo{
+    position: absolute;
+    left: 30%;
+    top:0;
+  }
+  #singlePage  {
+    position: relative;
+    width: 100%;
+ }
+ body{
+   margin: 0 auto;
+ }
+ #logIn {
+  padding: 10px;}
+  
+}
+
+
+
+

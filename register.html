@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="jquery.jq"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row form formImg">
+            <div class="col-md-2 col-md-offset-2 imgregform">
+                <img src="imgs/logo.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-center">
+                    <b>Регистрирај се</b>
+                </h5>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="name">Име</label>
+                                <input type="text" id="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Презиме</label>
+                                <input type="text" id="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Компанија</label>
+                                <input type="text" id="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="number" class="control-label">Телефонски број</label>
+                                <input type="number" id="number" class="form-control">
+                            </div>
+                            <div class="form-group text-center">
+                                <label for="number">Број на вработени</label>
+                                <select id="number">
+                                    <option>1-50</option>
+                                    <option>50-100</option>
+                                    <option>100-200</option>
+                                    <option>над 200</option>
+                                </select>
+                            </div>
+                            <div class="form-group text-center">
+                                <label for="number">Сектор</label>
+                                <select id="number">
+                                    <option>Човечки ресурси</option>
+                                    <option>Маркетинг</option>
+                                    <option>Продукт</option>
+                                    <option>Продажба</option>
+                                    <option>CEO</option>
+                                    <option>друго</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Лозинка</label>
+                                <input class="form-control" type="password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Потврди лозинка</label>
+                                <input class="form-control" type="password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">Испрати порака</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn registerBtn" data-dismiss="modal">Затвори</button>
+                                <button type="button" class="btn registerBtn">Испрати</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="form.js">
+    </script>
+</body>
+
+</html>

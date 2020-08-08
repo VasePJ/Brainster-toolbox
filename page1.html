@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="jquery.jq"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="nav navbar-default" id="singlePageNav">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-fixed-top navbar-left" id="navRgba">
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;Затвори</a>
+                    <a href="register.html" class="border">Регистрирај се</a>
+                    <a href="login.html" class="border">Најави се</a>
+                    <a href="aboutus.html" class="border">За нас</a>
+                    <a href="#" class="border">Галерија</a>
+                    <a href="#" class="border">Контакт</a>
+                </div>
+                <span id="hamburger" style="font-size:17px;cursor:pointer;" onclick="openNav()">&#9776;Мени</span>
+                <a class="navbar-brand brand" href="index.html">
+                    <img alt="Brand" src="imgs/logo.png" style="width:120px; height:30px; position: absolute;left:45%;">
+                </a>
+                <div class="navbar-right" id="singlePage">
+                    <a href="https://www.brainster.io/business" class="btn btn-default btnOne btnMobile">Обуки за
+                        компании</a>
+                    <a href="https://www.brainster.io/business" class="btn btn-default btnTwo btnMobile">Вработи наши
+                        студенти</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="backdrop"></div>
+    <div id="singlePageImg"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h4>Dotmocracy</h4>
+                <div class="row well">
+                    <div class="col-md-3"><span class="glyphicon glyphicon-time">Временска рамка <br>
+                            5-30 минути</span></div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-user">Големина на група
+                            <br> 3-40</span></div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-home">Ниво за фасилитирање
+                            <br>Почетно</span>
+                    </div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-cog">Материјали:<br>стикери, пенкала,маркери
+                        </span></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Едноставен метод за групна приоритизација или донесување одлуки. Ова не е активност сама по себе, туку
+                метод што треба да се користи во процесите каде што се јавува приоритет или одлучувањето е цел. Со овој
+                групен методот за брзо се гледа кои опции се најпопуларни или релевантни. Опциите или идеите се напишани
+                на стикери или залепени на ѕид за цела група да ги види. Секое лице гласа за можностите за кои смета
+                дека се најиздржани, а таа информација се користи за да се донесе одлука.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 1:<br>
+                Групата сега ќе гласа за опциите кои тие сметаат дека се најдобри со користење на точки, направени
+                едноставно со маркер на стикерите. Секој член на групата добива 5 точки за да гласа (или помалку ако има
+                помалку опции).
+                Овие точки може да бидат дистрибуирани на било кој начин: една точка за 5 различни идеи, сите пет точки
+                на една идеја, итн.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 2:<br>
+                Овој метод често се користи кога се генерира збир на можни идеи и треба да се проценат или да се даде
+                приоритет.
+                Ставете ги сите идеи / опции на ѕид, една идеја на еден стикер. Отстранете ги сличните идеи или
+                дупликати. Колку помалку опции, толку појасното и полесно ќе биде гласањето.
+                Проверете дали сите опции на ѕидот се јасни за сите членови во групата.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 3:<br>
+                Откако сите членови ќе ги дистрибуираат своите точки, групата може да продолжи на различни начини: <br>
+                ● Едноставно избирање на опцијата која добила најмногу точки. <br>
+                ● Спроведување на отворен дијалог за приоритизација. Истражување кои идеи добиле повеќе точки, кои
+                добиле помалку, кои се следните чекори. <br>
+                ● Организирајте ги идеите на линија од најголема до најмала точка, потоа разговарајте за нив.
+                <hr>
+            </div>
+        </div>
+        <div class="row rowOneOne">
+            <div class="col-md-12 text-center">
+                <h3>FUTURE-PROOF YOUR ORGANIZATION</h3>
+                <h4>Find out how to unlock progress in your business. Understand your current state, identify
+                    <br>opportunity areas and prepare to take charge of your organization's future.</h4>
+                <a href="https://www.brainster.io/business" class="btn btn-default btnOne">Take the assesment</a>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="row footer">
+            <div class="col-md-4 aboutContact">
+                <a href="aboutus.html">За нас</a>
+                <a href="https://brainster.co/contact">Контакт</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Галерија</a>
+            </div>
+            <div class="col-md-4 logo">
+                <a href="#">
+                    <img alt="Brand" src="imgs/logo.png" style="width:120px; height:30px; position: absolute;left:10%;">
+                </a>
+            </div>
+            <div class="col-md-4 socialMedia">
+                <a href="https://twitter.com/BrainsterCo">
+                    <i class="fab fa-twitter"></i> </a>
+                <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/school/brainster-co/"><i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="form.js">
+    </script>
+</body>
+
+</html>

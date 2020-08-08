@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="jquery.jq"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="nav navbar-default" id="singlePageNav">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-fixed-top navbar-left" id="navRgba">
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;Затвори</a>
+                    <a href="register.html" class="border">Регистрирај се</a>
+                    <a href="login.html" class="border">Најави се</a>
+                    <a href="aboutus.html" class="border">За нас</a>
+                    <a href="#" class="border">Галерија</a>
+                    <a href="#" class="border">Контакт</a>
+                </div>
+                <span id="hamburger" style="font-size:17px;cursor:pointer;" onclick="openNav()">&#9776;Мени</span>
+                <a class="navbar-brand brand" href="index.html">
+                    <img alt="Brand" src="imgs/logo.png" style="width:120px; height:30px; position: absolute;left:45%;">
+                </a>
+                <div class="navbar-right" id="singlePage">
+                    <a href="https://www.brainster.io/business" class="btn btn-default btnOne">Обуки за компании</a>
+                    <a href="https://www.brainster.io/business" class="btn btn-default btnTwo">Вработи наши
+                        студенти</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="backdrop"></div>
+    <div id="singlePageImg"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h4>3 Action Steps </h4>
+                <div class="row well">
+                    <div class="col-md-3"><span class="glyphicon glyphicon-time">Временска рамка <br>
+                            120-140 минути</span></div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-user">Големина на група
+                            <br>2-10</span></div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-home">Ниво за фасилитирање
+                            <br>Средно</span>
+                    </div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-cog">Материјали: <br>Пенкала,маркери во боја,
+                            А3 формат хартија
+                        </span></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Ова е мала стратешка сесија за планирање која им помага на групи и поединци да преземат акција кон
+                посакуваните промени. Често се користи на крајот од работилницата или програмата. Групата дискутира и се
+                согласува со визија, а потоа создава некои чекори за дејствување кои ќе ги водат кон таа визија. Обемот
+                на предизвикот исто така е дефиниран, преку дискусија за корисни и штетни фактори кои влијаат врз
+                групата.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 1:<br>
+                Започнете: Затворете ги очите и замислете дека сте 6 месеци од сега. Замислете дека сте постигнале се
+                што сте поставиле како цел. Размислете за она што сте го направиле во текот на шесте месеци. Вашата
+                работа. Вашите односи со останатите. Што ве прави среќни.
+
+                Дајте им на учениците пенкала и хартија. Тие сега ќе ја креираат својата визија за иднината на десната
+                страна на хартијата. Ограничете ги на 4 или 5 различни теми кои ја сочинуваат оваа визија, користејќи
+                неколку зборови, но колку што сакаат визуелни елементи.
+
+                Ако тие се во групи, тие треба да разговараат за нивните визии и да дефинираат заедничка група визија.
+
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 2:<br>
+                Побарајте од нив да напишат најмалку 5 корисни фактори на врвот на страната, кои ќе ги поддржат за да ја
+                реализираат својата визија. Тоа може да бидат луѓе, можности, технологии, ситуации, итн.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 3:<br>
+                Во дното на страницата побарајте од нив да напишат најмалку 5 придружни фактори кои ќе ги поддржат за да
+                ја реализираат својата визија. Повторно, ова може да бидат луѓе, можности, технологии, ситуации, итн..
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 4:<br>
+                Сега групата или поединците ќе дискутираат и ќе ги дефинираат чекорите за акција. Побарајте од нив да
+                нацртаат три кутии од левата страна на хартијата до визијата на десната страна. Ова ќе бидат трите
+                големи чекори што треба да ги преземат за да се постигне нивната визија.
+
+                Ако работат како поединци, тогаш ги ставате во парови за да разговараат за нивните чекори. Ако веќе се
+                во групи, тогаш може да разговараат за чекорите што ги прават.
+
+                Тие пишуваат чекор во секоја кутија, концизно, но со толку многу детали што им се потребни за да им биде
+                јасно на самите себе и на другите.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 5:<br>
+                За да ја затворите сесијата, отидете околу групата, барајќи од сите да ја искажат својата визија и еден
+                (или сите три) чекори за акција. Прашајте го секое лице: Која е првото нешто што ќе го направите кога ќе
+                се вратите во канцеларија.
+                <hr>
+            </div>
+        </div>
+        <div class="row rowOneOne">
+            <div class="col-md-12 text-center">
+                <h3>FUTURE-PROOF YOUR ORGANIZATION</h3>
+                <h4>Find out how to unlock progress in your business. Understand your current state, identify
+                    <br>opportunity areas and prepare to take charge of your organization's future.</h4>
+                <a href="https://www.brainster.io/business" class="btn btn-default btnOne">Take the assesment</a>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="row footer">
+            <div class="col-md-4 aboutContact">
+                <a href="aboutus.html">За нас</a>
+                <a href="https://brainster.co/contact">Контакт</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Галерија</a>
+            </div>
+            <div class="col-md-4 logo">
+                <a href="#">
+                    <img alt="Brand" src="imgs/logo.png" style="width:120px; height:30px; position: absolute;left:10%;">
+                </a>
+            </div>
+            <div class="col-md-4 socialMedia">
+                <a href="https://twitter.com/BrainsterCo">
+                    <i class="fab fa-twitter"></i> </a>
+                <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/school/brainster-co/"><i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="form.js">
+    </script>
+</body>
+
+</html>

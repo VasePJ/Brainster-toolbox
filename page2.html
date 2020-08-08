@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="jquery.jq"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="nav navbar-default" id="singlePageNav">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-fixed-top navbar-left" id="navRgba">
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;Затвори</a>
+                    <a href="register.html" class="border">Регистрирај се</a>
+                    <a href="login.html" class="border">Најави се</a>
+                    <a href="aboutus.html" class="border">За нас</a>
+                    <a href="#" class="border">Галерија</a>
+                    <a href="#" class="border">Контакт</a>
+                </div>
+                <span id="hamburger" style="font-size:17px;cursor:pointer;" onclick="openNav()">&#9776;Мени</span>
+                <a class="navbar-brand brand" href="index.html">
+                    <img alt="Brand" src="imgs/logo.png" style="width:120px; height:30px; position: absolute;left:45%;">
+                </a>
+                <div class="navbar-right" id="singlePage">
+                    <a href="https://www.brainster.io/business" class="btn btn-default btnOne">Обуки за компании</a>
+                    <a href="https://www.brainster.io/business" class="btn btn-default btnTwo">Вработи наши
+                        студенти</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="backdrop"></div>
+    <div id="singlePageImg"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h4>Project Mid-way Evaluation </h4>
+                <div class="row well">
+                    <div class="col-md-3"><span class="glyphicon glyphicon-time">Временска рамка <br>
+                            5-30 минути</span></div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-user">Големина на група
+                            <br>3-10</span></div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-home">Ниво за фасилитирање
+                            <br>Средно</span>
+                    </div>
+                    <div class="col-md-3"><span class="glyphicon glyphicon-cog">Материјали:<br>стикери, пенкала,маркери,
+                            флипчарт
+                        </span></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Овој метод е корисен за оценување на проект во тек, за да се види дали треба да се направат корекции за
+                тимот да работи поефективно заедно. Обезбедува рамка за дискусија. Учесниците се фокусираат на работите
+                што помагаат или го попречуваат тимскиот процес и создаваат чекори за подобрување.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 1:<br>
+                Соберете го тимот околу флипчарт или табла. Дајте им на сите пенкала и стикери <br>
+                Белешка до фасилитаторот: <br>
+                Ако имате група поголема од 10, можете да ги поделите на помали подгрупи, да ја стартувате вежбата и да
+                дискутирате за вежбата како целина на крајот.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 2:<br>
+                Нацртајте една од следните слики на флипчарт / табла. Сите тие се слични, но ќе даваат малку поинакви
+                резултати: <br>
+                Брод со едро и сидро. Едрото ги претставува работите кои го водат проектот напред и сидростите работи
+                што го држат назад. <br>
+                ● Брод со едро и сидро. Едрото ги претставува работите кои го водат проектот напред, сидрото работи што
+                го држат назад. <br>
+                ● Волан со пет делови наречен: стоп, старт, продолжи, повеќе, помалку. <br>
+                ● Три колони наречени: лут (со луто лице); тажен (тажно лице); задоволен (среќно лице).
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 3:<br>
+                Побарајте од членовите на тимот да додадат стикери на флипчартот со зборови за секоја категорија,
+                поединечно и во тишина. Дајте им време колку што е потребно, но 5-10 минути треба да биде доволно
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 4:<br>
+                Тие сега треба да ги групираат белешките во секоја категорија. Идентификување на дупликати, обрасци и
+                преклопувања.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 5:<br>
+                Откако ќе се организираат белешките, тимот може да разговара за она што се појавило. Дали нешто
+                изненадува? Кои се заедничките карактеристики? Што видовме претходно? Како се чувствуваме во врска со
+                ова? Дискутирајте околу 15-20 минути. Обидете се да се фокусирате на дискусијата. Осигурајте се дека
+                членовите на тимот не се лизгаат во генерализирање или се обвинуваат меѓусебно. Целта е да се има
+                ефикасна, ефективна дискусија за процесот до сега.
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-justify">
+                Чекор 6:<br>
+                Откако дискусијата ќе заврши, тимот треба да дефинира некои активности. Осигурајте се дека тие се
+                запишани, споделени помеѓу тимот и релевантните засегнати страни, и им се дава рок за завршување.
+                <hr>
+            </div>
+        </div>
+        <div class="row rowOneOne">
+            <div class="col-md-12 text-center">
+                <h3>FUTURE-PROOF YOUR ORGANIZATION</h3>
+                <h4>Find out how to unlock progress in your business. Understand your current state, identify
+                    <br>opportunity areas and prepare to take charge of your organization's future.</h4>
+                <a href="https://www.brainster.io/business" class="btn btn-default btnOne">Take the assesment</a>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="row footer">
+            <div class="col-md-4 aboutContact">
+                <a href="aboutus.html">За нас</a>
+                <a href="https://brainster.co/contact">Контакт</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Галерија</a>
+            </div>
+            <div class="col-md-4 logo">
+                <a href="#">
+                    <img alt="Brand" src="imgs/logo.png" style="width:120px; height:30px; position: absolute;left:10%;">
+                </a>
+            </div>
+            <div class="col-md-4 socialMedia">
+                <a href="https://twitter.com/BrainsterCo">
+                    <i class="fab fa-twitter"></i> </a>
+                <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/school/brainster-co/"><i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="form.js">
+    </script>
+</body>
+
+</html>
